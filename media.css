@@ -1,0 +1,30 @@
+@media screen and (min-width: 900px) {
+    form{
+        width: 45vw;
+        /* background-color: red; */
+    }
+    form section, #container {
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: space-between;
+        /* background-color: yellow; */
+    }
+    section div,  #container .elmt{
+        width: 48%;
+    }
+    #last{
+        margin-top: 0px;
+    }
+    .Enfant1{
+        display: flex;
+        flex-direction: column;
+        align-items: start !important;
+        /* background-color: red; */
+        width: 100%;
+    }
+    #validForm{
+        width: 25vw;
+    }
+}
